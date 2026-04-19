@@ -65,9 +65,9 @@ data_merged.columns = [
     "gyr_x",
     "gyr_y",
     "gyr_z",
+    "participant",
     "label",
     "category",
-    "participant",
     "set",
 ]
 # --------------------------------------------------------------
@@ -85,9 +85,9 @@ sampling = {
     "gyr_x": "mean",
     "gyr_y": "mean",
     "gyr_z": "mean",
+    "participant": "last",
     "label": "last",
     "category": "last",
-    "participant": "last",
     "set": "last",
 }
 
